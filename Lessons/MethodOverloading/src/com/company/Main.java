@@ -2,6 +2,9 @@ package com.company;
 
 public class Main {
 
+    //Constant variable that cannot be changed
+    private static final String INVALID_VALUE_MESSAGE = "Invalid value";
+
     public static void main(String[] args) {
 
         //Method overloading allows to have more than one method with the same name as long as it has different parameters
@@ -17,6 +20,8 @@ public class Main {
         //Challenge 2 method calls
         System.out.println(getDurationString(65, 45));
         System.out.println(getDurationString(3945));
+        System.out.println(getDurationString(-41));
+        System.out.println(getDurationString(65, 9));
     }
 
     public static int calculateScore(String playerName, int score) {
@@ -77,7 +82,8 @@ public class Main {
 
         //Validation
         if (minutes < 0 || seconds < 0 || seconds > 59) {
-            return "Invalid value";
+            //Get error message from the constant variable assigned in line 6
+            return INVALID_VALUE_MESSAGE;
         }
 
         //Convert minutes to hours
@@ -85,13 +91,33 @@ public class Main {
         //Get remaining minutes
         int remainingMinutes = minutes % 60;
         return hours + "h " + remainingMinutes + "m " + seconds + "s";
+
+        //Another solution that adds zero to start of duration if under 10
+        /*
+        String hoursString = hours + "h";
+        if (hours < 10) {
+            hoursString = "0" + hoursString;
+        }
+
+        String minutesString = minutes + "m";
+        if (remainingMinutes < 10) {
+            minutesString = "0" + minutesString;
+        }
+
+        String secondsString = seconds + "s";
+        if (seconds < 10) {
+            secondsString = "0" + secondsString;
+        }
+
+        return hoursString + " " + minutesString + " " + secondsString;
+        */
     }
 
     //Method overloading with the same method name but only one parameter
     public static String getDurationString(int seconds) {
 
         if (seconds < 0) {
-            return "Invalid value";
+            return INVALID_VALUE_MESSAGE;
         }
 
         //Calculate how many minutes is in seconds parameter
