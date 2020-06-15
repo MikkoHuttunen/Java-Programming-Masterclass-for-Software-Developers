@@ -36,7 +36,7 @@ public class Main {
         //Print out all prime numbers and exit loop after 3 prime numbers
         int count = 0;
 
-        for (int i=0; count<3; i++) {
+        for (int i=1; count<3; i++) {
             if (isPrime(i)) {
                 System.out.println("Number " + i + " is a prime number");
                 count++;
@@ -45,6 +45,24 @@ public class Main {
                 }
             }
         }
+
+        //Sum 3 and 5 challenge
+
+        int breakOutCounter = 0;
+        int sumOfNumbers = 0;
+
+        for (int i=1; i<=1000; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println(i + " is divisible by 3 and 5");
+                breakOutCounter++;
+                sumOfNumbers += i; //Add the value of divisible number
+                if (breakOutCounter >= 5) {
+                    break; //If 5 divisible numbers are found, exit the for loop
+                }
+            }
+        }
+
+        System.out.println("Sum of numbers is " + sumOfNumbers);
     }
 
     public static double calculateInterest(double amount, double interestRate) {
