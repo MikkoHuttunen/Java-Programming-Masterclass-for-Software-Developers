@@ -4,96 +4,88 @@ public class Hamburger {
 
     private String name;
     private String roll;
-    private boolean meat;
-    private boolean lettuce;
-    private boolean tomato;
-    private boolean cheese;
-    private boolean mayo;
-    private double price;
+    private boolean patty;
+    private String addition1;
+    private String addition2;
+    private String addition3;
+    private String addition4;
+    private double additionPrice = 0.5;
+    private double totalPrice;
 
-    public Hamburger(String roll, boolean meat, boolean lettuce, boolean tomato, boolean cheese, boolean bacon, boolean mayo, double price) {
-        this.name = "Basic Burger";
+    //Constructor overloading
+    public Hamburger(String name, String roll, boolean patty, String addition1, String addition2, String addition3, String addition4) {
+        this.name = name;
         this.roll = roll;
-        this.meat = meat;
-        this.lettuce = lettuce;
-        this.tomato = tomato;
-        this.cheese = cheese;
-        this.mayo = mayo;
-        this.price = price;
+        this.patty = patty;
+        this.addition1 = addition1;
+        this.addition2 = addition2;
+        this.addition3 = addition3;
+        this.addition4 = addition4;
+        this.totalPrice = 1.0;
+    }
+
+    public Hamburger(String name, String roll, boolean patty, String addition1, String addition2, String addition3) {
+        this(name, roll, patty, addition1, addition2, addition3, "");
+    }
+
+    public Hamburger(String name, String roll, boolean patty, String addition1, String addition2) {
+        this(name, roll, patty, addition1, addition2, "");
+    }
+
+    public Hamburger(String name, String roll, boolean patty, String addition1) {
+        this(name, roll, patty, addition1, "");
+    }
+
+    public Hamburger(String name, String roll, boolean patty) {
+        this(name, roll, patty, "");
     }
 
     //Getters
-    public String getName() {
-        return name;
+    public String isPatty() {
+        if (patty) {
+            return "patty";
+        }
+        return "no patty";
     }
 
-    public String getRoll() {
-        return roll;
+    public double getAdditionPrice() {
+        return additionPrice;
     }
 
-    public boolean isMeat() {
-        return meat;
-    }
+    //Print all the additions and return the total price value
+    public double getTotalPrice() {
+        double hamburgerPrice = totalPrice;
+        System.out.println(name + " with " + roll + " roll and " + isPatty() + " = " + hamburgerPrice);
+        if (!addition1.isEmpty()) {
+            hamburgerPrice += additionPrice;
+            System.out.println("Added " + addition1 + " for an extra " + additionPrice);
+        }
 
-    public boolean isLettuce() {
-        return lettuce;
-    }
+        if (!addition2.equals("")) {
+            hamburgerPrice += additionPrice;
+            System.out.println("Added " + addition2 + " for an extra " + additionPrice);
+        }
 
-    public boolean isTomato() {
-        return tomato;
-    }
+        if (!addition3.equals("")) {
+            hamburgerPrice += additionPrice;
+            System.out.println("Added " + addition3 + " for an extra " + additionPrice);
+        }
 
-    public boolean isCheese() {
-        return cheese;
-    }
+        if (!addition4.equals("")) {
+            hamburgerPrice += additionPrice;
+            System.out.println("Added " + addition4 + " for an extra " + additionPrice);
+        }
 
-    public boolean isBacon() {
-        return bacon;
-    }
-
-    public boolean isMayo() {
-        return mayo;
-    }
-
-    public double getPrice() {
-        return price;
+        return hamburgerPrice;
     }
 
     //Setters
-
-    public void setName(String name) {
-        this.name = name;
+    public void setTotalPrice(double totalPrice) {
+        this.totalPrice = totalPrice;
     }
 
-    public void setRoll(String roll) {
-        this.roll = roll;
-    }
-
-    public void setMeat(boolean meat) {
-        this.meat = meat;
-    }
-
-    public void setLettuce(boolean lettuce) {
-        this.lettuce = lettuce;
-    }
-
-    public void setTomato(boolean tomato) {
-        this.tomato = tomato;
-    }
-
-    public void setCheese(boolean cheese) {
-        this.cheese = cheese;
-    }
-
-    public void setBacon(boolean bacon) {
-        this.bacon = bacon;
-    }
-
-    public void setMayo(boolean mayo) {
-        this.mayo = mayo;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
+    //List additions and their price but also the total price of the burger
+    public void order() {
+        System.out.println("Total price == " + getTotalPrice());
     }
 }
