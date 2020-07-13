@@ -15,7 +15,9 @@ public class Song {
         return title;
     }
 
-    public double getDuration() {
-        return duration;
+    //Overriding toString() method to show track name instead of data location
+    @Override
+    public String toString() {
+        return this.title + ": " + this.duration;
     }
 }
