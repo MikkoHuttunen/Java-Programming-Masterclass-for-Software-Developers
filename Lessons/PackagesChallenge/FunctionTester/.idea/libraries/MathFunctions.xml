@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MathFunctions">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../MathFunctions/out/artifacts/MathFunctions_jar/MathFunctions.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="326d582f-91ae-4f21-b91c-50a1ddfaba10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/com/company/BaseballPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/com/company/FootballPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/com/company/League.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/com/company/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/com/company/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinDemo/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinDemo/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinDemo/WinDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinDemo/src/com/example/awtSample/MyWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericsChallenge/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsChallenge/src/com/company/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1f2cMjH5eAEEnkjzl6qLgG0fYHr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\School\Virtuaaliopinnot\Java Programming Masterclass for Software Developers\Lessons\GameTest\src\com\company" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="GameTest" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="326d582f-91ae-4f21-b91c-50a1ddfaba10" name="Default Changelist" comment="" />
+      <created>1595419581284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595419581284</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1595419804456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595419804456" />
+    <state width="598" height="912" key="GridCell.Tab.0.bottom" timestamp="1595420697935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="598" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595420697935" />
+    <state width="598" height="912" key="GridCell.Tab.0.center" timestamp="1595420697935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="598" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595420697935" />
+    <state width="598" height="912" key="GridCell.Tab.0.left" timestamp="1595420697935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="598" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595420697935" />
+    <state width="598" height="912" key="GridCell.Tab.0.right" timestamp="1595420697935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="598" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595420697935" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1595420044550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595420044550" />
+  </component>
+</project>

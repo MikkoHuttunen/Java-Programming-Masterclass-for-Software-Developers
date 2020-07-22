@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MathFunctions:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MathFunctions_jar</output-path>
+    <root id="archive" name="MathFunctions.jar">
+      <element id="module-output" name="MathFunctions" />
+    </root>
+  </artifact>
+</component>
