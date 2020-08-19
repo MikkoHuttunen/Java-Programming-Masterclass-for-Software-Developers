@@ -1,0 +1,8 @@
+Mail birthday card	Buy a 30th birthday card to John	25-08-2020
+Doctor's Appointment	See Dr. Smith at 123 Main Street. Bring paperwork	23-09-2020
+Finish design proposal for client	I promised Mike I'd email website mockups by Friday 21nd August	21-08-2020
+Pick up Doug at the train station	Doug's arriving on July 23 on the 5:00 train	23-07-2020
+Pick up dry cleaning	The clothes should be ready by Wednesday	26-08-2020
+My new Todo Item	This is a new todo item	21-08-2020
+Mikko's item	This is a test	21-08-2020
+Yet another todo item	This is a longer description.	21-08-2020
