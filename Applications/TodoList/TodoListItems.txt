@@ -6,3 +6,4 @@ Pick up dry cleaning	The clothes should be ready by Wednesday	26-08-2020
 My new Todo Item	This is a new todo item	21-08-2020
 Mikko's item	This is a test	21-08-2020
 Yet another todo item	This is a longer description.	21-08-2020
+Aleksin syntymäpäivä	rgkodfkgjokdfgo	31-08-2020
